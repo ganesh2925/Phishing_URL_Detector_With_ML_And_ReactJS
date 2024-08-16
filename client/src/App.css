@@ -1,0 +1,17 @@
+body{
+  background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  position:relative;
+  min-height:100vh;
+  background-image: url(./bg2.jpg);
+}
+body::after {
+  content: '';
+  display: block;
+  height: 1rem; /* Set same as footer's height */
+}
+.App {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+

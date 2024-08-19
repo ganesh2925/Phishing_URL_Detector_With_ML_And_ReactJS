@@ -1,6 +1,6 @@
 # Designed and Developed by KUMILI GANESH
 ## PhishingURLdetector
-A machine learning app where user can enter a URL and determine if it is real or fake (upto 98% accuracy)
+A machine learning app where user can enter a URL and determine if it is real or fake (up to 98% accuracy)
 
 
 How to run?
@@ -9,16 +9,22 @@ How to run?
  3. Run `python api.py`
  4. Open the client folder 'cd client'
  5. Run `npm i` to install the dependency.
- 6. Next Run `npm start` to access front end.
+ 6. Next Run `npm start` to access the front end.
  7. Enter the URL in the input field and click Test URL to get the result.
  8. The result will be displayed in the output field.
 
 
-# The Front-End Designed Look like this:-
+# The Front-End design Looks like this:-
+
 ![alt text](image.png)
 
+
 # Back-End (Flask) API Code:-
+
 ![alt text](image-1.png)
 
+
 # Machine learning (ML) Model accuracy:-
+
+
 ![alt text](image-2.png)

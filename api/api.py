@@ -20,17 +20,10 @@ def load_URL(url):
     result = loaded_model.predict([url])
     return result[0]
   
-# making a class for a particular resource
-# the get, post methods correspond to get and post requests
-# they are automatically mapped by flask_restful.
-# other methods include put, delete, etc.
+# making a class for a particular resource & the get, post methods correspond to get and post requests.they are automatically mapped by flask_restful.
 class Everyone(Resource):
-
-    # corresponds to the GET request.
-    # this function is called whenever there
-    # is a GET request for this resource
+    # corresponds to the GET request.this function is called whenever there is a GET request for this resource
     def get(self,name):
-        
         res=load_URL(name)
         jsonres = jsonify({"result":res})
         jsonres.headers['Access-Control-Allow-Credentials'] = 'true'
@@ -38,8 +31,6 @@ class Everyone(Resource):
   
 api.add_resource(Everyone, '/<path:name>')
 
-  
-  
 # driver function
 if (True):
     app.run(debug = True)

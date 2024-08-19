@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <div className="footer">
         <div className="footer-container">
-            <div>Designed and Developed by KUMILI GANESH</div>
-            <div>Made with React.js and Python</div>
+            <div>Designed and Developed by KUMILI GANESH || © 2024. All Rights Reserved.</div>
+            <div>Made with React.js & Python</div>
         </div>
     </div>
   )

@@ -1,9 +1,16 @@
 .homepage {
     font-family: 'Montserrat', sans-serif;
     margin-left: 10%;
-    margin-top: 12.5%;
+    margin-top: 11.5%;
     margin-right: 10%;
-    color: white
+    color: white;
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(184, 189, 184);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    padding: 2rem;
+    box-shadow: 1px 1px 8px 2px rgba(165, 167, 161, 0.85);
 }
 
 .text-box {
@@ -69,6 +76,20 @@
 }
 
 @media (max-width:426px) {
+    .homepage {
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 6%;
+        margin-top: 6%;
+        margin-right: 6%;
+        height: 380px;
+        border: none;
+        box-shadow: 0 0 2px 0 rgba(165, 167, 161, 0.85);
+        backdrop-filter: blur(2px);
+    }
+
+    .homepage h1 {
+        font-size: 1.8rem;
+    }
     .text-box {
         flex-direction: column;
         align-items: center;
@@ -86,6 +107,12 @@
     }
 
     .result {
+        height: 200px;
         font-size: 1.5rem;
+    }
+
+    .result-text {
+        font-size: 2.2rem;
+        padding: 12px;
     }
 }

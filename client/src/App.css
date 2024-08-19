@@ -3,7 +3,8 @@ body{
   font-family: 'Montserrat', sans-serif;
   position:relative;
   min-height:100vh;
-  background-image: url(./bg2.jpg);
+  background-image: url(./bg.gif);
+  background-size: cover;
 }
 body::after {
   content: '';

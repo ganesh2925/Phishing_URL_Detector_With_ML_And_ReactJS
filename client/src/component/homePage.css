@@ -1,8 +1,9 @@
 .homepage {
     font-family: 'Montserrat', sans-serif;
     margin-left: 10%;
-    margin-top: 11.5%;
+    margin-top: 8.5%;
     margin-right: 10%;
+    margin-bottom: 13%;
     color: white;
     background: transparent;
     border-radius: 0.5rem;
@@ -60,7 +61,7 @@
     font-size: 3rem;
     padding: 0;
     margin-top: -3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .safe {
@@ -75,13 +76,22 @@
     padding-right: 1rem;
 }
 
+.safe-gif {
+    width: 380px;
+}
+
+.unsafe-gif {
+    width: 380px;
+}
+
 @media (max-width:426px) {
     .homepage {
         font-family: 'Montserrat', sans-serif;
         margin-left: 6%;
         margin-top: 6%;
         margin-right: 6%;
-        height: 380px;
+        margin-bottom: 6%;
+        height: 630px;
         border: none;
         box-shadow: 0 0 2px 0 rgba(165, 167, 161, 0.85);
         backdrop-filter: blur(2px);
@@ -107,12 +117,18 @@
     }
 
     .result {
-        height: 200px;
         font-size: 1.5rem;
     }
 
     .result-text {
         font-size: 2.2rem;
-        padding: 12px;
+        padding: 6px;
+    }
+
+    .safe-gif {
+        width: 250px;
+    }
+    .unsafe-gif {
+        width: 250px;
     }
 }

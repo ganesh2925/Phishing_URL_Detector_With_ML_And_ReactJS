@@ -29,6 +29,9 @@ const HomePage = () => {
       fetchData(event);
     }
   };
+  const alert = async () => {
+    alert("Please enter a valid URL");
+  };
   return (
     <div className="homepage" onKeyDown={handleKeyDown}>
       <h1>Phishing URL detector</h1>
@@ -49,15 +52,21 @@ const HomePage = () => {
         <div className="result">
           <p>The website that you entered is</p>
           {isSafe === "good" ? (
-            <div className="result-text safe">
-              <CheckCircleIcon sx={{ fontSize: 40 }} className="check" />
-              <p>Safe</p>
-            </div>
+            <>
+              <div className="result-text safe">
+                <CheckCircleIcon sx={{ fontSize: 40 }} className="check" />
+                <p>Safe</p>
+              </div>
+              <img className="safe-gif" src="safe.gif" alt="Safe animation image" />
+            </>
           ) : (
-            <div className="result-text unsafe">
-              <CancelIcon sx={{ fontSize: 40 }} className="check" />
-              <p>Unsafe</p>
-            </div>
+            <>
+              <div className="result-text unsafe">
+                <CancelIcon sx={{ fontSize: 40 }} className="check" />
+                <p>Unsafe</p>
+              </div>
+              <img className="unsafe-gif" src="unsafe.gif" alt="UnSafe Animation Image" />
+            </>
           )}
         </div>
       )}

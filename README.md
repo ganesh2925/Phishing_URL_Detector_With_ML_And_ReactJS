@@ -4,12 +4,16 @@ A machine learning app where user can enter a URL and determine if it is real or
 
 
 ## How to run?
- 1. First Clone the repo `git clone https://github.com/ganesh2925/Phishing_URL_Detector_With_ML_And_ReactJS.git`
- 2. Open the project in VS code and select api folder 'cd api'
- 3. Run `python api.py`
- 4. Open the client folder 'cd client'
- 5. Run `npm i` to install the dependency.
- 6. Next Run `npm start` to access the front end.
+ 1. First Clone the repo 
+ ```git clone https://github.com/ganesh2925/Phishing_URL_Detector_With_ML_And_ReactJS.git```
+ 2. Open the project in VS code and select api folder 
+ ```cd api```
+ 3. Run 
+ ```python api.py```
+ 4. Open the client folder 
+ ```cd client```
+ 5. Run ```npm i``` to install the dependency.
+ 6. Next Run ```npm start``` to access the front end.
  7. Enter the URL in the input field and click Test URL to get the result.
  8. The result will be displayed in the output field.
 

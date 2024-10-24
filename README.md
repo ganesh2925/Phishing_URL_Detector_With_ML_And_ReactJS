@@ -29,9 +29,9 @@ npm i
 npm start
 ```
  12. Enter the URL in the input field and click Test URL to get the result.
- 13. The result will be displayed in the output field.
+ 13. The result will be displayed on the web page.
 
-
+<br />
 # The Front-End design Looks like this:-
 
 ![alt text](image.png)
